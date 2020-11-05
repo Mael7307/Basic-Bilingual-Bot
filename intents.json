@@ -1,0 +1,207 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "yo",
+        "whats up?",
+        "Good day"
+
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, I hope you are having a good day",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag" : "salutation",
+      "patterns" : [
+        "Bonjour",
+      "Hé!",
+      "Comment tu vas",
+      "Il y a quelqu’un ?" ,
+      "yo",
+      "Quoi de neuf ?" ,
+      "Bonne journée"
+      ],
+      "responses" : [
+      "Hey :-)",
+      "Bonjour, j’espère que vous passez une bonne journée",
+      "Salut, que puis-je faire pour toi ?" ,
+      "Bonjour, comment puis-je vous aider ?"
+    ]
+    },
+
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag" : "au revoir",
+      "patterns" : ["ciao", "A plus tard", "Au revoir"],
+      "responses" : [
+        "A plus tard, merci de votre visite",
+        "Passez une bonne journée",
+        "Au revoir ! Reviens vite."
+      ]
+    },
+
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag" : "merci",
+      "patterns" : ["Merci", "C’est utile", "Merci beaucoup!" ],
+      "responses" : ["Heureux d’aider!" , "N’importe quand!" , "Mon plaisir"]
+    },
+
+
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?","what drinks do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag" : "articles",
+      "patterns" : [
+        "Quels articles avez-vous ?" ,
+        "Quel genre d’objets y a-t-il ?" ,
+        "Qu’est-ce que tu vends ?","tu vends quoi?","quelle boissons vendez vous","quoi comme boissons?"
+      ],
+      "responses" : [
+        "Nous vendons du café et du thé",
+        "Nous avons du café et du thé"
+      ]
+    },
+
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag" : "paiements",
+      "patterns" : [
+      "Tu prends les cartes de crédit ?",
+      "Acceptez-vous les visa ?" ,
+      "Je peux payer en ligne ?" ,
+      "Vous n’êtes qu’en liquide ?"
+      ],
+      "responses" : [
+      "Nous acceptons VISA, Mastercard et Paypal",
+      "Nous acceptons la plupart des principales cartes de crédit, et Paypal"
+      ]
+      },
+
+
+
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag" : "delivery",
+      "patterns" : [
+        "Combien de temps dure la livraison ?" ,
+        "Combien de temps dure l’expédition ?" ,
+        "Quand vais-je recevoir ma livraison ?"
+      ],
+      "responses" : [
+        "La livraison prend 2-4 jours",
+        "L’expédition prend 2-4 jours"
+      ]
+    },
+
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "rigolo",
+      "patterns": [
+        "Raconte-moi une blague !" ,
+        "Dis-moi quelque chose de drôle !",
+        "Tu connais une blague ?"
+      ],
+      "responses": [
+        "Monsieur et madame Eau ont une fille. Comment s’appelle-t-elle ?\n\nRose",
+        "Qu’est-ce qui n’est pas un steak ?\n\nUne pastèque"
+      ]
+    },
+
+
+    {
+      "tag": "pets",
+      "patterns": [
+        "What kind of pet do you have?" ,
+        "What kind of animals do you like",
+        "Do you have any pets?","do you like dogs or cats?"
+      ],
+      "responses": [
+        "I have 3 robot dogs ",
+        "I like to keep bugs as pets!"
+      ]
+    },
+    {
+    "tag" : "animaux",
+    "patterns" : [
+    "Quel genre d’animal avez-vous ?" ,
+    "Quel genre d’animal de compagnie aimez-vous",
+    "Avez-vous des animaux ?", " aimez-vous les chiens ou les chats ?"
+    ],
+    "responses" : [
+    "J’ai 3 chiens robots",
+    "J’aime garder les insectes comme animaux de compagnie !"
+    ]
+    }
+  ]
+}
